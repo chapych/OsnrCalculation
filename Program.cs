@@ -8,7 +8,6 @@ class TestClass
         WorksheetCollection collection = wb.Worksheets;
         for (int worksheetIndex = 0; worksheetIndex < collection.Count; worksheetIndex++)
         {
-
             Worksheet worksheet = collection[worksheetIndex];
             Console.WriteLine("Enter initial power:");
             double power = Convert.ToDouble(Console.ReadLine());
@@ -70,6 +69,4 @@ public class Line
             data[j] = value;
         }
     }
-
-
 }
